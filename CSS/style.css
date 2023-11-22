@@ -1,0 +1,37 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    margin-left: 0.5%;
+}
+h2{
+    margin-left: 0.25%;
+}
+ul{
+    margin-left: 2%;
+}
+.div1{
+    border: solid;
+    border-color: blue;
+}
+.div2{
+    border: solid;
+    border-color: grey;
+}
+.div3{
+    border: solid;
+    border-color: greenyellow;
+}
+.div4{
+    border: solid;
+    border-color: grey;
+}
+.div6{
+    border: solid;
+    border-color: grey;
+}
+.div8{
+    border: solid;
+    border-color: greenyellow;
+}
