@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fondo{
+    background: url(../img/bg.jpg) no-repeat 50% 50%;
+    height: 100vh; 
+    background-size: cover;
+}
+.titulo{
+    padding: 1em;
+    text-align: center;
+}
+.titulo h1{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    font-size: 500%;
+    margin-bottom: 0.5em;
+}
+.titulo .btn{
+    border-radius: 9px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid ;
+    font-weight: bold;
+    padding: 7px 13px;
+}
+.titulo .btn:hover{
+    background-color: #2196f3;
+}
