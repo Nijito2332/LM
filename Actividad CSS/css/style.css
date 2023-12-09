@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #00b9e0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div1{
+    background-color: #7dcbde;
+    border: solid 3px #7dcbde;
+    border-radius: 1%;
+    width: 25em;
+    height: 36em;
+    margin: 3.6em auto;
+    
+}
+.div2{
+    background-color: #0f076f;  
+    border: solid 3px #bad2d7;
+    height: 33em;
+    width: 22em;
+    margin: 1.5em auto;
+}
+.imagen{
+    border: solid 1px white;
+    border-radius: 80px;
+    background-image: url(../img/foto.png);
+    background-color: white;
+    background-size: cover;
+    width: 7.5em;
+    height: 7.5em;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.nombre{
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    margin-left: 8em;
+    margin-top: 2em;
+    background-color: #0f076f;  
+}
+.apellidos{
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    margin-left: 6.5em;
+    margin-top: 3em;
+    background-color: #0f076f;  
+}
+.valido{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 53%;
+    text-align: center;
+    background-color: #0f076f;
+}
+.dia{
+    border: solid 1px rgb(104, 104, 228);
+    background-color: rgb(104, 104, 228);
+    margin-top: 10%;
+    margin-left: 1%;
+    width: 27.5%;
+    height: 4em;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 2%;
+    float: left;
+}
+.mes{
+    border: solid 1px rgb(104, 104, 228);
+    background-color: rgb(104, 104, 228);
+    margin-top: 10%;
+    margin-left: 1%;
+    width: 27.5%;
+    height: 4em;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 2%;
+    float: left;
+}
+.año{
+    border: solid 1px rgb(104, 104, 228);
+    background-color: rgb(104, 104, 228);
+    margin-top: 10%;
+    margin-right: 1%;
+    width: 27.5%;
+    height: 4em;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 2%;
+    float: right;
+}
+.visitante{
+    border: solid 1px #0f076f;
+    background-color: white;
+    color: #0f076f;
+    font-size: 35px;
+    letter-spacing: 0.25em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6em;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    height: 10%;
+    padding-top: 4%;
+}
