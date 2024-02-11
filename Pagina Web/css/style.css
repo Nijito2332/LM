@@ -267,3 +267,41 @@ img {
     right: 0;
     color: #333;
 }
+.sobrenosotros{
+    background-color: #e1762f;
+    padding-bottom: 13%;
+}
+.sobrenosotros h1{
+    color: #f2f2f2;
+    font-size: 3vw;
+    padding-top: 5%;
+    padding-left: 13.5%;
+}
+.sobrenosotros img{
+    width: 40%;
+    padding-left: 5.5%;
+    float: left;
+}
+.sobrenosotros p{
+    font-family: 'Montserrat';
+    font-size: 1vw;
+    color: #f2f2f2;
+    padding-left: 50%;
+    padding-right: 3%;
+}
+.sobrenosotros .btn2 {
+    padding: 10px 20px;
+    margin-left: 20%; 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    color: #f2f2f2;
+    background-color: #81D8D0;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.sobrenosotros .btn2:hover {
+    background-color: #7c482e;
+}
