@@ -405,3 +405,95 @@ footer{
     font-size: 16px;
     padding: 7px;
 }
+@media only screen and (max-width: 600px) {
+    /* Estilos para el menú de navegación */
+    .topnav a {
+        display: none;
+        font-size: 3vw;
+    }
+    .logo img {
+        width: 10%;
+    }
+    .topnav .icon {
+        display: block;
+        float: right;
+        font-size: 5vw;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 5vw;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: 4vw;
+    }
+    
+    /* Estilos para la sección de productos */
+    .productos h1 {
+        margin-left: 18%;
+        font-size: 4vw;
+    }
+    .producto1, .producto2, .producto3, .producto4, .producto5, .producto6 {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 7%;
+    }
+    .producto1 h2, .producto2 h2, .producto3 h2, .producto4 h2, .producto5 h2, .producto6 h2 {
+        font-size: 3vw;
+    }
+    .toggle-btn {
+        font-size: 5vw;
+    }
+    .descripcion {
+        font-size: 2vw;
+    }
+    .descripcion.active {
+        max-width: 100%; 
+        font-size: 2vw;
+        transition: max-width 1s ease-in-out; 
+        right: 0;
+        color: #333;
+    }
+    
+    /* Estilos para la sección "Sobre Nosotros" */
+    .sobrenosotros h1 {
+        font-size: 5vw;
+        padding-left: 10%;
+    }
+    .sobrenosotros img {
+        width: 80%;
+        padding-left: 10%;
+    }
+    .sobrenosotros p {
+        font-size: 3vw;
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+    .sobrenosotros .btn2 {
+        margin-left: 35%;
+        font-size: 3vw;
+    }
+    
+    /* Estilos para el footer */
+    .mapa h2 {
+        font-size: 5vw;
+    }
+    .footer-content h2 {
+        font-size: 5vw;
+    }
+    .bottom-bar p {
+        font-size: 3vw;
+    }
+    .container {
+        width: 80%; 
+        flex-direction: column; 
+        align-items: center;
+    }
+}
