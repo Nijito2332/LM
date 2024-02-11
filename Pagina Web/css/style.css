@@ -305,3 +305,103 @@ img {
 .sobrenosotros .btn2:hover {
     background-color: #7c482e;
 }
+footer{
+    background: #81D8D0;
+    padding-top: 50px;
+}
+.mapa{
+    margin-left: 20%;
+}
+.mapa h2{
+    font-size: 2vw;
+    color: #f2f2f2;
+    margin-bottom: 0%
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+}
+.footer-content h2{
+    font-size: 2vw;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #f2f2f2;
+}
+.footer-content p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+    color: #333;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    color: #333;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #e1762f;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.list li a{
+    text-decoration: none;
+    color: #333;
+}
+.list li a:hover{
+    color: #e1762f;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: #333;
+    font-size: 25px;
+}
+.social-icons a{
+    text-decoration: none;
+    color: #333;
+}
+.social-icons i:hover{
+    color: #e1762f;
+}
+.bottom-bar{
+    background: #e1762f;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: #333;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
