@@ -12,14 +12,14 @@
 <body>
     <div class="topnav" id="myTopnav">
         <nav>
-            <div class="logo">
+            <div class="logo" id="Revuelto">
                 <img src="img/logotipo.png" alt="">
             </div>
-            <a href="#" class="menu-item">Revuelto</a>
-            <a href="#" class="menu-item">Destacados</a>
-            <a href="#" class="menu-item">Nosotros</a>
+            <a href="#Revuelto" class="menu-item">Revuelto</a>
+            <a href="#Destacados" class="menu-item">Destacados</a>
+            <a href="#Nosotros" class="menu-item">Nosotros</a>
             <a href="#" class="menu-item">¡Pide ya!</a>
-            <a href="#" class="menu-item">Contactanos</a>
+            <a href="#Contactanos" class="menu-item">Contactanos</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
@@ -51,10 +51,10 @@
     </div>
     <div class="intro">
         <p>Un <span class="marca1">REVUELTO</span>es lo mejor que puedes pedir</p>
-        <a href="#" class="btn1">Conoce <span class="marca2">REVUELTO</span></a>
+        <a href="#Revuelto" class="btn1">Conoce <span class="marca2">REVUELTO</span></a>
     </div>
     <a class="arriba" href="#"><img class="centrar" src="img/arrow-up.png"></a>
-    <div class="productos">
+    <div class="productos" id="Destacados">
         <h1>Nuestros productos destacados</h1>
          <div class="producto1">
              <img src="img/BaconCheese.png" alt="">
@@ -105,7 +105,7 @@
             <p id="desc6" class="descripcion">Bastones de boniato frito con sweet mayo</p>
         </div>
     </div>
-    <div class="sobrenosotros">
+    <div class="sobrenosotros" id="Nosotros">
         <h1>Sobre Nosotros</h1>
         <img src="img/Creadoras.jpg" alt="">
         <p> Somos Sandra y Naia tenemos tan solo 22 años y, tras un viaje a Corea, emprensimos un negocio juntas, ubicado en la calle Víctor Hugo, 5. Descubrieron un producto hecho con huevos revueltos dentro de dos panes y con diferentes toppings. "Dijimos, si en Corea gusta tanto por qué aquí no". <br><br>
@@ -116,6 +116,41 @@
         </p>
         <a href="#" class="btn2" target="_blank">Más Información</a>
     </div>
+    <div class="contact_form" id="Contactanos">
+		<div class="formulario">			
+        <h1>CONTÁCTANOS</h1>
+	    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+					<form action="misformularios.php" method="post">
+								<p>
+									<label for="nombre" class="colocar_nombre">Nombre
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+								</p>
+								<p>
+									<label for="email" class="colocar_email">Email
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+								</p>
+								<p>
+									<label for="telefone" class="colocar_telefono">Teléfono
+									</label>
+										<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+								</p>
+								<p>
+									<label for="mensaje" class="colocar_mensaje">Mensaje
+										<span class="obligatorio">*</span>
+									</label>                     
+                               		<textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                               	</p>	  								
+								<button class='btn3'type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+								<p class="aviso">
+									<span class="obligatorio"> * </span>los campos son obligatorios.
+								</p>		
+					</form>
+		</div>	
+	</div>
     <footer>
         <div class="mapa">
             <h2>Estamos aquí, muy cerca de tí.</h2>
@@ -124,30 +159,31 @@
         <div class="container">
             <div class="footer-content">
                 <h2>CONTACTO</h2>
-                <p>Email:Info@example.com</p>
-                <p>Phone:+121 56556 565556</p>
-                <p>Address:Your Address 123 street</p>
+                <p>Email: revuelto@gmail.com</p>
+                <p>Móvil: 644 05 53 00</p>
             </div>
             <div class="footer-content">
                 <h2>ENLACES RÁPIDOS</h2>
                  <ul class="list">
-                    <li><a href="">Revuelto</a></li>
-                    <li><a href="">Destacados</a></li>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">¡Pide ya!</a></li>
-                    <li><a href="">Contactanos</a></li>
+                    <li><a href="#Revuelto">Revuelto</a></li>
+                    <li><a href="#Destacados">Destacados</a></li>
+                    <li><a href="#Nosotros">Nosotros</a></li>
+                    <li><a href="#¡Pide ya!">¡Pide ya!</a></li>
+                    <li><a href="#Contactanos">Contactanos</a></li>
                  </ul>
             </div>
             <div class="footer-content">
                 <h2>SÍGUENOS</h2>
                 <ul class="social-icons">
-                 <li><a href=""><i class="fab fa-tiktok"></i></a></li>
-                 <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                 <li><a href="https://www.tiktok.com/@revuelto__" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+                 <li><a href="https://www.instagram.com/revuelto___/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                 </ul>
                 </div>
         </div>
         <div class="bottom-bar">
             <p>&copy; 2024 REVUELTO . Todos los derechos reservados</p>
+            <a href="">Politica de cookies</a>
+            <a href="">Aviso legal</a>
         </div>
     </footer>
     <script src="js/script.js"></script>
