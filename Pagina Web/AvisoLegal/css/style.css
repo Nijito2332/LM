@@ -201,6 +201,14 @@ footer {
         font-size: 4vw;
     }
     /* Estilos Footer */
+    .footer-content{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-content1{
+        width: 100%;
+        text-align: center;
+    }
     .footer-content h2 {
         font-size: 5vw;
     }
