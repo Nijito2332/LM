@@ -268,6 +268,62 @@ img {
     right: 0;
     color: #333;
 }
+.compraya {
+    margin-top: 5%;
+    background-color: #333;
+    overflow: hidden; 
+    padding-bottom: 5%;
+}
+.cajacompraya {
+    position: relative;
+    width: 20%;
+    background: #e1762f;
+    float: left;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.compraya h1{
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 5vw;
+}
+.compraya h2{
+    text-align: left;
+    color: #f2f2f2;
+    font-size: 5vw;
+}
+.compraya p{
+    text-align: center;
+    font-size: 1vw;
+    color: #f2f2f2;
+}
+.compraya img{
+    position: absolute;
+    margin-left: 30%;
+    width: 40%;
+}
+.btn2{
+    display: block;
+    margin-top: 30%;
+    margin-left: 37%;
+    padding: 20px;
+    width: 21%;
+    text-align: center;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    background-color: #81D8D0;
+    border: none;
+    cursor: pointer;
+}
+.btn2:hover {
+    background-color: #7c482e;
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 2vw;
+    color: #f2f2f2;
+}
 .sobrenosotros{
     background-color: #e1762f;
     padding-bottom: 13%;
@@ -289,22 +345,6 @@ img {
     color: #f2f2f2;
     padding-left: 50%;
     padding-right: 3%;
-}
-.sobrenosotros .btn2 {
-    padding: 10px 20px;
-    margin-left: 20%; 
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50px;
-    transition: background-color 0.3s ease;
-    color: #f2f2f2;
-    background-color: #81D8D0;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-}
-.sobrenosotros .btn2:hover {
-    background-color: #7c482e;
 }
 .contact_form {
     width: 80%;
@@ -559,7 +599,6 @@ footer{
         text-align: left;
         font-size: 4vw;
     }
-    
     /* Estilos para la sección de productos */
     .productos h1 {
         margin-left: 18%;
@@ -586,7 +625,39 @@ footer{
         right: 0;
         color: #333;
     }
-    
+    /*Estilos para la sección "Compra ya" */
+    .compraya {
+        margin-top: 5%;
+        background-color: #333;
+        padding-bottom: 5%;
+    }
+    .cajacompraya {
+        margin-left: 33%;
+        margin-right: 33%;
+        margin-top: 5%;
+        height: 100px;
+        float: none;
+    }
+    .compraya h2 {
+        font-size: 5vw; 
+    }
+    .compraya p{
+        font-size: 2vw;
+    }
+    .compraya img {
+        position: absolute;
+        margin-left: 30%;
+        width: 40%;
+    }
+    .btn2 {
+        margin-top: 5%;
+        margin-left: 30%;
+        width: 30%;
+        padding: 10px;
+    }
+    .btn2 a {
+        font-size: 3vw;
+    }
     /* Estilos para la sección "Sobre Nosotros" */
     .sobrenosotros h1 {
         font-size: 5vw;
@@ -605,7 +676,6 @@ footer{
         margin-left: 35%;
         font-size: 3vw;
     }
-    
     /*Estilos para la sección "Contáctanos" */
     .contact_form {
         width: 90%;
@@ -634,7 +704,6 @@ footer{
     .aviso {
         font-size: 3vw;
     }
-
     /* Estilos para el footer */
     .mapa h2 {
         font-size: 5vw;
