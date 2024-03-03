@@ -251,6 +251,7 @@ img {
     cursor: pointer;
 }
 .descripcion {
+    font-family: 'Descripciones';
     max-width: 0;
     overflow: hidden;
     transition: max-width 1s ease-in-out; 
